@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.top{
+    text-indent: 5%;
+    font-size: xx-large;
+    position: fixed;
+    top: 1.3rem;
+    left: 1.9rem;
+   
+}
+.top__1{
+    position: fixed;
+    text-indent: 10%;
+    top: 2.5rem;
+    left: 10.5rem;
+}
+
+nav{
+    background-color: #f06400;
+    height: 15vh;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.center{
+    position: fixed;
+    top: 2.5rem;
+    left: 15rem;
+}
+.nav__ling--ho:hover{
+    background-color: #c98055;
+    padding: .50rem;
+}
+.nav__bnt{
+    color: black;
+    border: none;
+    width: 40rem;
+    padding: .6rem;
+    border-radius: .6rem;
+    text-align: left;
+}
+main{
+    background-color: powderblue;
+    height: 100vh;
+    width: 100%;
+    padding: 1rem; 
+    color: black;
+}
+section{
+    position: fixed;
+    top: 8rem;
+}
+.sec__h1{
+    color: black;
+    position: fixed;
+    left: 12rem;
+}
+.sec__h4{
+    color: #f06400;
+    position: fixed;
+    left: 57rem;
+}
+form{
+    background-color: white;
+    height: 42vh;
+    width: 68%;
+    padding: 2rem;
+   
+}
+.form__1{
+    left: 12rem;
+    top: 13rem;
+    position: fixed;
+}
+label{
+    color: black;
+}
+input{
+    background-color: blanchedalmond;
+    border: none;
+    width: 29.5rem;
+    padding: .6rem;
+    border-radius: .3rem;
+
+}
+p{
+    color: rgb(1, 168, 168);
+    text-indent: 39.5%;
+}
+.bnt{
+    margin-left: 35rem;
+    width: 250px;
+    border: none;
+    padding: .6rem;
+    border-radius: .3rem;
+}
+.div__2{
+    position: fixed;
+    top: 15rem;
+}
+.bnt__log{
+    background-color: rgb(235, 148, 17);
+}
+.bnt__or{
+    background-color: white;
+    color: black;
+    margin-left: 29.5rem;
+}
+.bnt__fec{
+    background-color: blue;
+    gap: 1rem;
+}
+.bnt__gg{
+    background-color: rgb(255, 51, 0);
+}
+
